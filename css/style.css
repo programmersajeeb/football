@@ -76,9 +76,39 @@ a {
 .banner-info a span {
   margin-right: 8px;
 }
+.banner-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
 .banner-image img {
-  width: 556px;
-  height: 438px;
+  width: 388px;
+  height: 428px;
+}
+.banner-image img.football{
+  position: absolute;
+  top: 134px;
+  right: 464px;
+  width: 60px;
+  height: 60px;
+  transition: transform 0.1s ease-out 0.1s;
+}
+.banner-image:hover img.football{
+  transform: translateY(-200px);
+}
+.banner-image img.football-player{
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 520px;
+  transform: rotate(-10deg);
+  transition: transform 0.1s ease-in;
+}
+.banner-image:hover img.football-player{
+  transform: rotate(5deg);
 }
 /* Players Gellary Area Styles */
 .gellary {
