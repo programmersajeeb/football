@@ -1,6 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 688px) {
 /* common styles or utilities */
+header,
+main,
+footer {
+  overflow: hidden;
+}
 .container {
   width: 95%;
   margin: 0 auto;
@@ -28,6 +33,7 @@
 }
 .banner-image {
   margin: 50px 0;
+  width: 100%;
 }
 .banner-image img {
   width: 100%;
