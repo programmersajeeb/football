@@ -11,6 +11,7 @@
   padding: 0;
   align-items: unset;
 }
+/* Menu Area Styles */
 #header nav{
   display: none;
 }
@@ -66,8 +67,8 @@ section#players-gellary {
   width: 100%;
 }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Small devices (portrait tablets and large phones, 600px and up 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
 /* common styles or utilities */
 .container {
   width: 95%;
@@ -75,9 +76,7 @@ section#players-gellary {
 }
 /* Header Area Styles */
 #header{
-  overflow: hidden;
   padding: 0;
-  align-items: unset;
 }
 #header nav{
   display: none;
@@ -114,29 +113,19 @@ section#players-gellary {
 #footer {
   margin: 0 0 60px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* common styles or utilities */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+/* Header Area Styles */
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px)
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
