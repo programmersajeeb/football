@@ -88,7 +88,9 @@ section#players-gellary {
 .key-players-main-wrap {
   flex-direction: column;
   align-items: center;
-  grid-row-gap: 30px;
+}
+.key-player {
+  margin-top: 30px;
 }
 /* Club Area Styles */
 section#club {
@@ -127,24 +129,18 @@ input[type="submit"] {
 .footer-logo img {
   width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
 }
 /* Small devices (portrait tablets and large phones, 600px and up 767px) */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 688px) and (max-width: 991px) {
 /* common styles or utilities */
 .container {
   width: 95%;
   margin: 0 auto;
+}
+header,
+main,
+footer {
+  overflow: hidden;
 }
 /* Header Area Styles */
 #header{
@@ -153,18 +149,36 @@ input[type="submit"] {
 #header nav{
   display: none;
 }
-
+/* Banner Area Styles */
+.banner-image {
+  width: 100%;
+}
+.banner-image img.football {
+  top: 236px;
+  right: 592px;
+}
+.banner-image img.football-player {
+  top: 50px;
+  right: 0;
+  width: 100%;
+}
 /* Players Gellary Area Styles */
 section#players-gellary {
   margin-top: 50px;
 }
 .gellary {
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: 0;
-}.player-card img {
+  grid-column-gap: 15px;
+  grid-row-gap: 22px;
+  align-items: center;
+}
+.player-card {
+  width: 290px;
+}
+.player-card img {
   width: 100%;
 }
-
 /* Highlights Area Styles */
 .highlights-image {
   margin: 50px 0;
@@ -181,18 +195,61 @@ section#players-gellary {
   width: 100%;
   height: auto;
 }
+/* Key Players Styles */
+.key-players-main-wrap {
+  flex-direction: column;
+  align-items: center;
+    margin-top: 0;
+}
+.key-player {
+  margin-top: 30px;
+}
+/* Club Area Styles */
+section#club {
+  padding: 0 0 70px 0;
+}
 /* Footer Area Styles */
 #footer {
   margin: 0 0 60px 0;
 }
 }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1312px) {
+@media only screen and (min-width: 992px) and (max-width: 1163px) {
 /* common styles or utilities */
-
+header,
+main,
+footer {
+  overflow: hidden;
 }
-
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+/* Header Area Styles */
+header, main, footer {
+  align-items: unset;
+}
+/* Banner Area Styles */
+.banner-info {
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+/* Players Gellary Area Styles */
+.gellary {
+  grid-template-columns: repeat(2, 1fr);
+}
+/* Highlights Area Styles */
+.highlights-content-info {
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+/* Key Players Styles */
+.key-players-main-wrap {
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+}
