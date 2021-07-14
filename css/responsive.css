@@ -62,7 +62,9 @@ section#players-gellary {
 #footer {
   margin: 0 0 60px 0;
 }
-
+.footer-logo img {
+  width: 100%;
+}
 
 
 
