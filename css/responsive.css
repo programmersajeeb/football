@@ -62,6 +62,7 @@ section#players-gellary {
 /* Highlights Area Styles */
 #highlights {
   margin: 60px 0 0 0;
+  overflow: hidden;
 }
 .highlights-content-info {
   flex-direction: column;
