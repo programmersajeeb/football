@@ -1,4 +1,6 @@
-/* Extra small devices (phones, 600px and down) */
+/*-------------------------------------------------------------
+                           Small devices
+---------------------------------------------------------------*/
 @media only screen and (max-width: 688px) {
 /* common styles or utilities */
 header,
@@ -130,8 +132,10 @@ input[type="submit"] {
   width: 100%;
 }
 }
-/* Small devices (portrait tablets and large phones, 600px and up 767px) */
-@media only screen and (min-width: 688px) and (max-width: 991px) {
+/*-----------------------------------------------------------
+                  Medium devices-Large devices 
+ -------------------------------------------------------------*/
+@media only screen and (min-width: 689px) and (max-width: 991px) {
 /* common styles or utilities */
 .container {
   width: 95%;
@@ -213,7 +217,9 @@ section#club {
   margin: 0 0 60px 0;
 }
 }
-/* Medium devices (landscape tablets, 768px and up) */
+/* --------------------------------------------------------
+                      Extra large devices
+ ------------------------------------------------------------*/
 @media only screen and (min-width: 992px) and (max-width: 1163px) {
 /* common styles or utilities */
 header,
