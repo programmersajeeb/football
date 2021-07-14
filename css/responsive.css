@@ -28,6 +28,10 @@
 .banner-image {
   margin: 50px 0;
 }
+.banner-image img {
+  width: 100%;
+  height: auto;
+}
 /* Players Gellary Area Styles */
 section#players-gellary {
   margin-top: 50px;
