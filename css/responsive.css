@@ -10,6 +10,9 @@ footer {
   width: 95%;
   margin: 0 auto;
 }
+.btn{
+  overflow: hidden;
+}
 /* Header Area Styles */
 #header{
   overflow: hidden;
@@ -38,6 +41,13 @@ footer {
 .banner-image img {
   width: 100%;
   height: auto;
+}
+.banner-image img.football {
+  top: 196px;
+}
+.banner-image img.football-player{
+  top: 80px;
+  width: 92%;
 }
 /* Players Gellary Area Styles */
 section#players-gellary {
