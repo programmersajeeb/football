@@ -49,7 +49,7 @@ section#players-gellary {
 .highlights-content-info {
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: unset;
+  align-items: normal;
 }
 .highlights-image {
   margin: 50px 0;
@@ -65,12 +65,50 @@ section#players-gellary {
 .footer-logo img {
   width: 100%;
 }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+/* common styles or utilities */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
 
+#header nav{
+  display: none;
+}
 
+/* Players Gellary Area Styles */
+section#players-gellary {
+  margin-top: 50px;
+}
+.gellary {
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0;
+}.player-card img {
+  width: 100%;
+}
 
-
-
-
+/* Highlights Area Styles */
+.highlights-image {
+  margin: 50px 0;
+}
+.highlights-image img {
+  width: 100%;
+  height: auto;
+}
+/* Banner Area Styles */
+.banner-image {
+  margin: 50px 0;
+}
+.banner-image img {
+  width: 100%;
+  height: auto;
+}
+/* Footer Area Styles */
+#footer {
+  margin: 0 0 60px 0;
+}
 
 
 
@@ -88,9 +126,6 @@ section#players-gellary {
 
 
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
