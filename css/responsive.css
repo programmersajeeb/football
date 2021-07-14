@@ -73,7 +73,12 @@ section#players-gellary {
   width: 95%;
   margin: 0 auto;
 }
-
+/* Header Area Styles */
+#header{
+  overflow: hidden;
+  padding: 0;
+  align-items: unset;
+}
 #header nav{
   display: none;
 }
